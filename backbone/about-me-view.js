@@ -1,11 +1,18 @@
 var AboutMeView = Backbone.View.extend({
 	el: $('#main-content'),
-	template: _.template($('#about-me-template').html()),
+	title: $('#section-title'),
+	templateContent: _.template($('#about-me-template').html()),
+	titleContent: _.template($('#title-template').html()),
 	initialize: function() {
-		this.render();
+		this.renderContent();
+		this.renderTitle();
 	},
-	render: function() {
-		this.$el.html(this.template());
+	renderContent: function() {
+		this.$el.html(this.templateContent());
+		return this;
+	},
+	renderTitle: function(){
+		this.title.html(this.titleContent());
 		return this;
 	}
 });
