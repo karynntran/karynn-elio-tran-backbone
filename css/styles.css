@@ -44,8 +44,15 @@
 
 /*Backbone Views*/
 
+#section-title {
+	font-family: 'Droid Serif', serif;
+	color: black;
+	font-size: 20px;	
+	margin-top: 50px;
+	padding: 10px 0;
+}
+
 #main-content {
-	margin: 20px 0;
 	background-color: #F0F0F0;
 	padding: 20px;
 }
