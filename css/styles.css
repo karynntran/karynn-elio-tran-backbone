@@ -40,3 +40,12 @@
 	color: #fff;
 	padding: 0 5px;
 }
+
+
+/*Backbone Views*/
+
+#main-content {
+	margin: 20px 0;
+	background-color: #F0F0F0;
+	padding: 20px;
+}

@@ -1,4 +1,4 @@
-new ProjectView(console.log("Hello"));
+new AboutMeView(console.log("AboutMe"));
 
 $( document ).ready(function() {
 });
