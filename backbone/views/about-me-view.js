@@ -11,7 +11,7 @@ var AboutMeView = Backbone.View.extend({
 		return this;
 	},
 	renderTitle: function(){
-		this.titleEl.text("Nice to meet you! Here's a little about me.");
+		this.titleEl.text("{ Nice to meet you! Here's a little about me }");
 		return this;
 	}
 });

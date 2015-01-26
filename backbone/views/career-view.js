@@ -7,7 +7,7 @@ var CareerView = Backbone.View.extend({
 		return this;
 	},
 	renderTitle: function(){
-		this.titleEl.text("What else I've done");
+		this.titleEl.text("{ Cool stuff I've done }");
 		return this;
 	}
 });

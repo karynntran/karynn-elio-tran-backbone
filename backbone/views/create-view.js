@@ -7,7 +7,7 @@ var CreateView = Backbone.View.extend({
 		return this;
 	},
 	renderTitle: function(){
-		this.titleEl.text("Create");
+		this.titleEl.text("{ Let's make something great }");
 		return this;
 	}
 });

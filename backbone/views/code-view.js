@@ -7,7 +7,7 @@ var CodeView = Backbone.View.extend({
 		return this;
 	},
 	renderTitle: function(){
-		this.titleEl.text("Check out my code");
+		this.titleEl.text("{ Check out my code }");
 		return this;
 	}
 });

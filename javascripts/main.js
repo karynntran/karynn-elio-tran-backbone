@@ -1,4 +1,4 @@
-new AboutMeView(console.log('AboutMe'));
+var aboutMeView = new AboutMeView(console.log('AboutMe'));
 var codeView = new CodeView(console.log('Code'));
 var careerView = new CareerView(console.log('Career'));
 var contactView = new ContactView(console.log('Contact'));
@@ -78,11 +78,13 @@ $( document ).ready(function() {
 		}
 	);
 
-	$('#header-title')
+	$('.main-title')
 	.css('cursor', 'pointer')
 	.click(
 		function(){
 			console.log('about me clicked');
+			aboutMeView.renderContent();
+			aboutMeView.renderTitle();
 		}
 	)
 	.hover(

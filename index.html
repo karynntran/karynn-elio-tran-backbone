@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
-	<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -16,91 +16,106 @@
 		<div class="container">
 			<div class="row twelve columns" id="header">
 				<div class="row six columns">
-					<h1 id="header-title">karynn elio tran<h1>
+					<h1 class="main-title">karynn elio tran<h1>
+					</div>
+					<div class="row six columns">
+						<h5 id="header-subtitle">{ webDeveloper . designEnthusiast . storyTeller }</h5>
+					</div>
 				</div>
-				<div class="row six columns">
-					<h5 id="header-subtitle">{ webDeveloper . designEnthusiast . storyTeller }</h5>
+				<div class="row twelve columns" id="navigation">
+					<div class="row three columns" id="code">code</div>
+					<div class="row three columns" id="career">career</div>
+					<div class="row three columns" id="create">create</div>
+					<div class="row three columns" id="contact">contact</div>
 				</div>
-			</div>
-			<div class="row twelve columns" id="navigation">
-				<div class="row three columns" id="code">code</div>
-				<div class="row three columns" id="career">career</div>
-				<div class="row three columns" id="create">create</div>
-				<div class="row three columns" id="contact">contact</div>
-			</div>
 
-			<div class="row twelve columns" id="section-title"></div>
-			<div class="row twelve columns" id="main-content"></div>
+				<div class="row twelve columns" id="section-title"></div>
+				<div class="row twelve columns" id="main-content"></div>
 
-			<div id="footer">
-				this site was built with love & Backbone.js &#9829
+				<div id="footer">
+					this site was built with love & Backbone.js &#9829
+				</div>
 			</div>
 		</div>
-	</div>
 
-	<script type="text/template" id="contact-template">
+		<script type="text/template" id="contact-template">
 		<div class="row twelve columns">
 			<p>Contact content</p>	
 		</div>
-	</script>	
+		</script>	
 
-	<script type="text/template" id="create-template">
+		<script type="text/template" id="create-template">
 		<div class="row twelve columns">
-			<p>Create content</p>	
-		</div>
-	</script>	
+			<p>When I'm not coding, I'm all about creating. Crafting, cooking and capturing travel adventures and unique moments are just a few of my favorite things. Scroll through to take a peek at what I like to dabble in during my spare time.</p>
+		</div>	
+		<div class="row twelve columns">		
+			<div class="row four columns">
+				<a href="https://www.flickr.com/photos/124520799@N02/sets/72157645686683272/" target="_blank">Photo Gallery</a>	
+			</div>
+			<div class="row eight columns">
+				<p>Image Carousel</p>	
+			</div>	
+		</div>	
+		</script>	
 
-	<script type="text/template" id="career-template">
-		<div class="row twelve columns">
-			<div class="six columns">
-				<p class="header-title">{ STORYTELLER &<br>QUALITATIVE ANALYST }</p>
+		<script type="text/template" id="career-template">
+			<div class="row twelve columns">
+				<div class="six columns">
+					<p class="header-title">{ STORYTELLER & QUALITATIVE ANALYST }</p>
 					<strong>COMMUNISPACE CORPORATION</strong><br>
 					I've worked with awesome teams, for multiple Fortune 500 companies such as Heinz, Pepsi-Co and Hilton Worldwide. On a daily basis, I took journeys through consumers' lives by way of research design, dug up fascinating insights through their experiences and brought their stories to life in visually engaging reports.
-			</div>	
-			<div class="six columns">
-			</div>	
-		</div>
-	</script>
+				</div>	
+				<div class="six columns">
+					<p class="header-title">{ PUBLISHER & PROJECT MANAGER }</p>
+					<strong>MEDIAPLANET PUBLISHING</strong><br>
+					I've published two independent supplements in USA Today and The Washington Post, educating more than one million readers about work/life balance in the workplace and the importance of digestive health. Getting Sharon Osbourne and Pearl Jam's Mike McCready involved in these campaigns was pretty cool, too.
+					<ul id="publications">
+						<li><a href="http://doc.mediaplanet.com/all_projects/6062.pdf" target="_blank">Work/Life Balance - USA Today</a></li>
+						<li><a href="http://doc.mediaplanet.com/all_projects/6648.pdf" target="_blank">Colon Health - The Washington Post</a></li>
+					</ul>
+				</div>	
+			</div>
+		</script>
 
-	<script type="text/template" id="code-template">
+		<script type="text/template" id="code-template">
 		<div class="row twelve columns">
-			<p>Code content</p>	
+		<p>Code content</p>	
 		</div>
-	</script>
+		</script>
 
-	<script type="text/template" id="about-me-template">
+		<script type="text/template" id="about-me-template">
 		<div class="row twelve columns">
-			<div class="four columns">
-				<p class="header-title"><strong>WHO</strong> I AM</p>
-				<p class="header-text">
-					A native New Yorker, currently in Manhattan; an Aquarius, born in the Year of the Rat, an ENFJ. I sometimes view life through thick-framed glasses or a Nikon lens, but most importantly through optimism.
-				</p>
-			</div>
-			<div class="four columns">
-				<p class="header-title"><strong>WHAT</strong> I AM</p>
-				<p class="header-text">
-					A budding full-stack web developer, constantly fascinated by  beautiful design. Once a qualitative storyteller by trade, but forever an inquisitive researcher by nature. An advocate for seeing consumers as humans.
-				</p>
-			</div>
-			<div class="four columns">
-				<p class="header-title"><strong>WHAT ELSE</strong> I AM</p>
-				<p class="header-text">I am a life-long student. I travel to discover, not to relax. I pluck a ukulele, though not very well. I may be addicted to coffee. I love anything to do with food. I believe art can be found in almost anything.</p>
-			</div>
+		<div class="four columns">
+		<p class="header-title"><strong>WHO</strong> I AM</p>
+		<p class="header-text">
+		A native New Yorker, currently in Manhattan; an Aquarius, born in the Year of the Rat, an ENFJ. I sometimes view life through thick-framed glasses or a Nikon lens, but most importantly through optimism.
+		</p>
 		</div>
-	</script>
+		<div class="four columns">
+		<p class="header-title"><strong>WHAT</strong> I AM</p>
+		<p class="header-text">
+		A budding full-stack web developer, constantly fascinated by  beautiful design. Once a qualitative storyteller by trade, but forever an inquisitive researcher by nature. An advocate for seeing consumers as humans.
+		</p>
+		</div>
+		<div class="four columns">
+		<p class="header-title"><strong>WHAT ELSE</strong> I AM</p>
+		<p class="header-text">I am a life-long student. I travel to discover, not to relax. I pluck a ukulele, though not very well. I may be addicted to coffee. I love anything to do with food. I believe art can be found in almost anything.</p>
+		</div>
+		</div>
+		</script>
 
 
 
-	<script src="javascripts/jquery.js"></script>
-	<script src="javascripts/underscore.js"></script>
-	<script src="javascripts/backbone.js"></script>
+		<script src="javascripts/jquery.js"></script>
+		<script src="javascripts/underscore.js"></script>
+		<script src="javascripts/backbone.js"></script>
 
-	<script src="backbone/views/contact-view.js"></script>
-	<script src="backbone/views/create-view.js"></script>
-	<script src="backbone/views/about-me-view.js"></script>
-	<script src="backbone/views/code-view.js"></script>
-	<script src="backbone/views/career-view.js"></script>
+		<script src="backbone/views/contact-view.js"></script>
+		<script src="backbone/views/create-view.js"></script>
+		<script src="backbone/views/about-me-view.js"></script>
+		<script src="backbone/views/code-view.js"></script>
+		<script src="backbone/views/career-view.js"></script>
 
-	<script src="javascripts/main.js"></script>
-</body>
-</html>
+		<script src="javascripts/main.js"></script>
+	</body>
+	</html>

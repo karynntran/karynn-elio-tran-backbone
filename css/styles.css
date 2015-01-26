@@ -27,9 +27,17 @@ body:before {
 
 
 /*HEADER STYLES */
-#header-title {
+.main-title {
 	font-family: 'Droid Serif', serif;
 	color: black;
+	font-weight: 400;
+}
+
+.header-title {
+	font-family: 'Droid Serif', serif;
+	color: #330033;
+	font-size: 15px;
+	font-weight: 700;
 }
 #header-subtitle {
 	color: darkgray;
@@ -57,6 +65,18 @@ body:before {
 	color: #fff;
 	padding: 0 5px;
 }
+
+#publications {
+	margin-top: 20px;
+}
+
+li {
+	text-decoration: none;
+	line-height: 10px;
+	list-style-type: none;
+	text-align: right;
+}
+
 #create {
 	background-color: #6C476C;
 	color: #fff;
