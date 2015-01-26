@@ -6,6 +6,7 @@ var createView = new CreateView(console.log('Create'));
 
 $( document ).ready(function() {
 
+
 	$('#create')
 	.css('cursor', 'pointer')
 	.click(
@@ -14,7 +15,7 @@ $( document ).ready(function() {
 			createView.renderContent();
 			createView.renderTitle();
 		}
-	)
+		)
 	.hover(
 		function(){
 			$(this).css('background', '#ff00ff');
@@ -22,7 +23,7 @@ $( document ).ready(function() {
 		function(){
 			$(this).css('background', '');
 		}
-	);
+		);
 
 	$('#contact')
 	.css('cursor', 'pointer')
@@ -32,7 +33,7 @@ $( document ).ready(function() {
 			contactView.renderContent();
 			contactView.renderTitle();
 		}
-	)
+		)
 	.hover(
 		function(){
 			$(this).css('background', '#ff00ff');
@@ -40,7 +41,7 @@ $( document ).ready(function() {
 		function(){
 			$(this).css('background', '');
 		}
-	);
+		);
 
 	$('#career')
 	.css('cursor', 'pointer')
@@ -50,7 +51,7 @@ $( document ).ready(function() {
 			careerView.renderContent();
 			careerView.renderTitle();
 		}
-	)
+		)
 	.hover(
 		function(){
 			$(this).css('background', '#ff00ff');
@@ -58,7 +59,7 @@ $( document ).ready(function() {
 		function(){
 			$(this).css('background', '');
 		}
-	);
+		);
 
 	$('#code')
 	.css('cursor', 'pointer')
@@ -68,7 +69,7 @@ $( document ).ready(function() {
 			codeView.renderContent();
 			codeView.renderTitle();
 		}
-	)
+		)
 	.hover(
 		function(){
 			$(this).css('background', '#ff00ff');
@@ -76,7 +77,7 @@ $( document ).ready(function() {
 		function(){
 			$(this).css('background', '');
 		}
-	);
+		);
 
 	$('.main-title')
 	.css('cursor', 'pointer')
@@ -86,7 +87,7 @@ $( document ).ready(function() {
 			aboutMeView.renderContent();
 			aboutMeView.renderTitle();
 		}
-	)
+		)
 	.hover(
 		function(){
 			$(this).css('background', '#ff00ff');
@@ -94,6 +95,6 @@ $( document ).ready(function() {
 		function(){
 			$(this).css('background', '');
 		}
-	);
+		);
 
 });

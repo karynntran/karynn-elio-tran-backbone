@@ -8,6 +8,7 @@ var CodeView = Backbone.View.extend({
 	},
 	renderTitle: function(){
 		this.titleEl.text("{ Check out my code }");
+		this.titleEl.append("<center><button id='portfolio-button'>See My Portfolio</button></center>")
 		return this;
 	}
 });

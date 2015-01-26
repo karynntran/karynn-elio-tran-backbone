@@ -31,6 +31,7 @@ body:before {
 	font-family: 'Droid Serif', serif;
 	color: black;
 	font-weight: 400;
+	font-size: 45px;
 }
 
 .header-title {
@@ -60,21 +61,11 @@ body:before {
 	color: #fff;
 	padding: 0 5px;
 }
+
 #career {
 	background-color: #471947;
 	color: #fff;
 	padding: 0 5px;
-}
-
-#publications {
-	margin-top: 20px;
-}
-
-li {
-	text-decoration: none;
-	line-height: 10px;
-	list-style-type: none;
-	text-align: right;
 }
 
 #create {
@@ -86,6 +77,29 @@ li {
 	background-color: #957A95;
 	color: #fff;
 	padding: 0 5px;
+}
+
+/*Lists*/
+#list {
+	margin-top: 20px;
+}
+
+.publications {
+	text-decoration: none;
+	line-height: 10px;
+	list-style-type: none;
+	text-align: right;
+}
+
+.skills {
+	line-height: 10px;
+	text-align: left;
+}
+
+/*Buttons*/
+#portfolio-button {
+	background-color: #330033;
+	color: white;
 }
 
 
@@ -103,3 +117,4 @@ li {
 	background-color: #F0F0F0;
 	padding: 20px;
 }
+
