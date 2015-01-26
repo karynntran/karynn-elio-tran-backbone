@@ -12,30 +12,53 @@
 </head>
 <body>
 
-	<div class="container">
-		<div class="row twelve columns" id="header">
-			<div class="row six columns">
-				<h1 id="header-title">karynn elio tran<h1>
+	<div id="wrapper">
+		<div class="container">
+			<div class="row twelve columns" id="header">
+				<div class="row six columns">
+					<h1 id="header-title">karynn elio tran<h1>
+				</div>
+				<div class="row six columns">
+					<h5 id="header-subtitle">{ webDeveloper . designEnthusiast . storyTeller }</h5>
+				</div>
 			</div>
-			<div class="row six columns">
-				<h5 id="header-subtitle">{ webDeveloper . designEnthusiast . storyTeller }</h5>
+			<div class="row twelve columns" id="navigation">
+				<div class="row three columns" id="code">code</div>
+				<div class="row three columns" id="career">career</div>
+				<div class="row three columns" id="create">create</div>
+				<div class="row three columns" id="contact">contact</div>
+			</div>
+
+			<div class="row twelve columns" id="section-title"></div>
+			<div class="row twelve columns" id="main-content"></div>
+
+			<div id="footer">
+				this site was built with love & Backbone.js &#9829
 			</div>
 		</div>
-		<div class="row twelve columns" id="navigation">
-			<div class="row three columns" id="code">code</div>
-			<div class="row three columns" id="career">career</div>
-			<div class="row three columns" id="create">create</div>
-			<div class="row three columns" id="contact">contact</div>
-		</div>
-
-		<div class="row twelve columns" id="section-title"></div>
-		<div class="row twelve columns" id="main-content"></div>
-
 	</div>
+
+	<script type="text/template" id="contact-template">
+		<div class="row twelve columns">
+			<p>Contact content</p>	
+		</div>
+	</script>	
+
+	<script type="text/template" id="create-template">
+		<div class="row twelve columns">
+			<p>Create content</p>	
+		</div>
+	</script>	
 
 	<script type="text/template" id="career-template">
 		<div class="row twelve columns">
-			<p>Career content</p>	
+			<div class="six columns">
+				<p class="header-title">{ STORYTELLER &<br>QUALITATIVE ANALYST }</p>
+					<strong>COMMUNISPACE CORPORATION</strong><br>
+					I've worked with awesome teams, for multiple Fortune 500 companies such as Heinz, Pepsi-Co and Hilton Worldwide. On a daily basis, I took journeys through consumers' lives by way of research design, dug up fascinating insights through their experiences and brought their stories to life in visually engaging reports.
+			</div>	
+			<div class="six columns">
+			</div>	
 		</div>
 	</script>
 
@@ -68,14 +91,15 @@
 
 
 
-
 	<script src="javascripts/jquery.js"></script>
 	<script src="javascripts/underscore.js"></script>
 	<script src="javascripts/backbone.js"></script>
 
-	<script src="backbone/about-me-view.js"></script>
-	<script src="backbone/code-view.js"></script>
-	<script src="backbone/career-view.js"></script>
+	<script src="backbone/views/contact-view.js"></script>
+	<script src="backbone/views/create-view.js"></script>
+	<script src="backbone/views/about-me-view.js"></script>
+	<script src="backbone/views/code-view.js"></script>
+	<script src="backbone/views/career-view.js"></script>
 
 	<script src="javascripts/main.js"></script>
 </body>
