@@ -1,8 +1,42 @@
-body {
-
+/*HEADER STYLES
+*/
+#header-title {
+	font-family: 'Droid Serif', serif;
+	color: black;
+}
+#header-subtitle {
+	color: darkgray;
+	text-align: right;
+	font-size: 15px;
+	margin-top: 20px;
 }
 
-.header {
-	font-family: 'Droid Serif', serif;
-	color: #660099;
+#header{
+	margin-top: 20px;
+	display: inline-block;
+}
+
+#navigation {
+	display: inline;
+}
+
+#code {
+	background-color: #330033;
+	color: #fff;
+	padding: 0 5px;
+}
+#career {
+	background-color: #471947;
+	color: #fff;
+	padding: 0 5px;
+}
+#create {
+	background-color: #6C476C;
+	color: #fff;
+	padding: 0 5px;
+}
+#contact {
+	background-color: #957A95;
+	color: #fff;
+	padding: 0 5px;
 }
