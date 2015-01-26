@@ -1,1 +1,8 @@
-styles.css
+body {
+
+}
+
+.header {
+	font-family: 'Droid Serif', serif;
+	color: #660099;
+}
