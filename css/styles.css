@@ -95,6 +95,8 @@ body:before {
 	line-height: 10px;
 	text-align: center;
 	list-style: none;
+	background-color: white;
+	padding: 10px;
 }
 
 /*Buttons*/
