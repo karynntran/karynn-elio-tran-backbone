@@ -93,11 +93,12 @@ body:before {
 
 .skills {
 	line-height: 10px;
-	text-align: left;
+	text-align: center;
+	list-style: none;
 }
 
 /*Buttons*/
-#portfolio-button {
+#portfolio-button, #skills-button {
 	background-color: #330033;
 	color: white;
 }

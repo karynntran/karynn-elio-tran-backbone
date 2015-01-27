@@ -3,6 +3,10 @@ var CodeView = Backbone.View.extend({
 	titleEl: $('#section-title'),
 	templateContent: _.template($('#code-template').html()),
 
+	events: {
+	    "click #skills-button": "renderContent",
+	},
+
 	renderContent: function() {
 		this.$el.html(this.templateContent());
 		return this;

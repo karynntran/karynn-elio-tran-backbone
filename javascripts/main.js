@@ -5,12 +5,9 @@ var contactView = new ContactView(console.log('Contact'));
 var createView = new CreateView(console.log('Create'));
 var portfolioView = new PortfolioView(console.log('Portfolio'));
 
+var restaurant = new Project({ name: "Wine & Dine", url: "http://107.170.136.228:1111/", description: "Week 4: Our very first CRUD app: a restaurant app that manages menu items, parties, and orders.", languages: "Ruby, Sinatra and PSQL" });
 
 $( document ).ready(function() {
-
-	$('#portfolio-button').on('click', function() {
-		console.log('blah');
-	});
 
 	$('#create')
 	.css('cursor', 'pointer')

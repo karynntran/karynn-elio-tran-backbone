@@ -8,6 +8,7 @@ var PortfolioView = Backbone.View.extend({
 	},
 
 	renderContent: function() {
+		console.log("Click Portfolio Button");
 		this.$el.html(this.templateContent());
 		return this;
 	},

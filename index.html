@@ -81,16 +81,24 @@
 		</script>
 
 		<script type="text/template" id="portfolio-template">
-			<div>HELLO</div>
-		</script>			
+			<button id="skills-button">&#9664  CODING SKILLS</button>
+			<button id="wine-dine-button">Wine and Dine</button>
+			<button id="wine-dine-button">Games</button>
+			<button id="wine-dine-button">Seek Travel</button>
+			<button id="wine-dine-button">Comic SmashUp</button>			
+		</script>
+
+		<script type="text/template" id="project-template">
+		</script>						
 
 		<script type="text/template" id="code-template">
-			<button id="portfolio-button">Click ME</button>
+			<button id="portfolio-button">PORTFOLIO   &#9654</button>
 
 			<div class="row twelve columns">
 				<center><p class="header-title">I recently graduated from the Web Development Immersive Program at General Assembly. Lemurs for Life!</p></center>
 			</div>			
 			<div class="row twelve columns">
+				<center>
 				<div class="three columns">
 					<p class="header-title">LANGUAGES</p>
 					<ul class="skills">
@@ -126,7 +134,8 @@
 						<li class="skills">ActiveRecord</li>
 						<li class="skills">BCrypt</li>	
 					</ul>
-				</div>												
+				</div>	
+				</center>									
 			</div>								
 		</script>
 
@@ -154,6 +163,11 @@
 		<script src="javascripts/jquery.js"></script>
 		<script src="javascripts/underscore.js"></script>
 		<script src="javascripts/backbone.js"></script>
+
+<!-- MODELS -->
+		<script src="backbone/models/project-model.js"></script>
+
+<!-- VIEWS -->
 
 		<script src="backbone/views/contact-view.js"></script>
 		<script src="backbone/views/create-view.js"></script>
