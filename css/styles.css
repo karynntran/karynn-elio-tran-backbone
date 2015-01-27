@@ -103,6 +103,12 @@ body:before {
 	color: white;
 }
 
+/*Icons*/
+
+.icon {
+	width: 50%;
+}
+
 /*Backbone Views*/
 
 #section-title {
