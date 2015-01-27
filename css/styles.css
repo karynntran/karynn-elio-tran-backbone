@@ -132,7 +132,7 @@ body:before {
 /*PROJECTS*/
 
 #single-project {
-	max-height: 350px;
+	overflow-y: hidden;
 }
 
 .project-li {
