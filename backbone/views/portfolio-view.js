@@ -16,6 +16,7 @@ var PortfolioView = Backbone.View.extend({
 	renderPortfolioContent: function() {
 		console.log("Click Portfolio Button");
 		this.$el.html(this.templateContent());
+		this.$('#single-project').html("<p class='header-title'>Over twelve weeks, I built four web applications as part of the Web Development Immersive program at General Assembly. Each project was a lesson in new languages, frameworks, self-motivation, teamwork and patience. Click on any project to learn more! Enjoy.</p>");
 		return this;
 	},
 	renderWineDineContent: function() {

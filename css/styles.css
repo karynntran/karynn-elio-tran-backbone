@@ -97,7 +97,7 @@ body:before {
 	text-align: center;
 	list-style: none;
 	background-color: white;
-	padding: 10px;
+	padding: 5px;
 }
 
 /*Buttons*/
@@ -132,7 +132,7 @@ body:before {
 /*PROJECTS*/
 
 #single-project {
-	max-height: 300px;
+	max-height: 350px;
 }
 
 .project-li {
@@ -140,7 +140,8 @@ body:before {
 }
 
 .project-photo {
-	width: 30%;
+	width: 35%;
 	height: auto;
+	border: 5px solid lightgray;
 }
 
