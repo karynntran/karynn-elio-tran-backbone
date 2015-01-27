@@ -119,3 +119,8 @@ body:before {
 	padding: 20px;
 }
 
+#single-project {
+	border: 2px solid black;
+	height: 500px;
+}
+
