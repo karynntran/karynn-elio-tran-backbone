@@ -1,7 +1,6 @@
 var PortfolioView = Backbone.View.extend({
 	el: $('#main-content'),
 	titleEl: $('#section-title'),
-	singleEl: $('#single-project'),	
 	templateContent: _.template($('#portfolio-template').html()),
 	projectContent: _.template($('#project-template').html()),
 	model: Project,
@@ -9,9 +8,9 @@ var PortfolioView = Backbone.View.extend({
 	events: {
 	    "click #portfolio-button": "renderPortfolioContent",
 	    "click #wine-dine-button": "renderWineDineContent",
-	    // "click #games-button": "renderContent",	
-	    // "click #seek-button": "renderContent",
-	    // "click #comic-button": "renderContent"	    
+	    "click #games-button": "renderGamesContent",	
+	    "click #seek-button": "renderSeekContent",
+	    "click #comic-button": "renderComicContent"	    
 	},
 
 	renderPortfolioContent: function() {
@@ -22,7 +21,25 @@ var PortfolioView = Backbone.View.extend({
 	renderWineDineContent: function() {
 		console.log("Click Wine & Dine Button");
 		var data = restaurant.toJSON();
-		this.singleEl.html(this.projectContent(data));
+		this.$('#single-project').html(this.projectContent(data));
+		return this;
+	},	
+	renderGamesContent: function() {
+		console.log("Click Wine & Dine Button");
+		var data = game.toJSON();
+		this.$('#single-project').html(this.projectContent(data));
+		return this;
+	},	
+	renderSeekContent: function() {
+		console.log("Click Wine & Dine Button");
+		var data = seek.toJSON();
+		this.$('#single-project').html(this.projectContent(data));
+		return this;
+	},	
+	renderComicContent: function() {
+		console.log("Click Wine & Dine Button");
+		var data = comics.toJSON();
+		this.$('#single-project').html(this.projectContent(data));
 		return this;
 	},	
 });

@@ -59,24 +59,24 @@ body:before {
 #code {
 	background-color: #330033;
 	color: #fff;
-	padding: 0 5px;
+	padding: 8px 10px;
 }
 
 #career {
 	background-color: #471947;
 	color: #fff;
-	padding: 0 5px;
+	padding: 8px 10px;
 }
 
 #create {
 	background-color: #6C476C;
 	color: #fff;
-	padding: 0 5px;
+	padding: 8px 10px;
 }
 #contact {
 	background-color: #957A95;
 	color: #fff;
-	padding: 0 5px;
+	padding: 8px 10px;
 }
 
 /*Lists*/
@@ -125,8 +125,18 @@ body:before {
 	padding: 20px;
 }
 
+/*PROJECTS*/
+
 #single-project {
-	border: 2px solid black;
-	height: 500px;
+	max-height: 300px;
+}
+
+.project-li {
+	list-style: none;
+}
+
+.project-photo {
+	width: 30%;
+	height: auto;
 }
 

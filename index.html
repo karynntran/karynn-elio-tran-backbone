@@ -32,7 +32,7 @@
 				<div class="row twelve columns" id="section-title"></div>	
 
 				<div class="row twelve columns" id="main-content">
-				</div>				
+				</div>
 
 				<div id="footer">
 					this site was built with love & Backbone.js &#9829
@@ -40,6 +40,8 @@
 			</div>
 		</div>
 	</div>
+
+<!-- scripts	 -->
 
 		<script type="text/template" id="contact-template">
 		<center>
@@ -83,7 +85,7 @@
 
 			<div class="row eight columns">
 				
-				GALLERY
+				MORE COMING SOON!
 
 			</div>	
 		</div>	
@@ -127,10 +129,11 @@
 
 		<script type="text/template" id="project-template">
 			<ul>
-				<li><a href="<%= url %>">LINK</a></li>			
-				<li><%= name %></li>
-				<li><%= description %></li>
-				<li><%= languages %></li>
+				<li class="project-li"><img src="<%=photo%>" class="project-photo">
+				<li class="project-li"><button><a href="<%= url %>">Check it out</a></button></li>			
+				<li class="project-li header-title"><%= name %></li>
+				<li class="project-li"><%= description %></li>
+				<li class="project-li"><%= languages %></li>
 			</ul>						
 		</script>						
 
