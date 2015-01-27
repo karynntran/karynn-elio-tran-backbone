@@ -98,7 +98,7 @@ $( document ).ready(function() {
 		)
 	.hover(
 		function(){
-			$(this).css('background', '#ff00ff');
+			$(this).css('background', '#E8E8E8');
 		},
 		function(){
 			$(this).css('background', '');

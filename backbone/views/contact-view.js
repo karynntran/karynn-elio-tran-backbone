@@ -7,7 +7,7 @@ var ContactView = Backbone.View.extend({
 		return this;
 	},
 	renderTitle: function(){
-		this.titleEl.text("{ Let's chat }");
+		this.titleEl.text("{ Let's chat. }");
 		return this;
 	}
 });

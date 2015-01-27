@@ -125,6 +125,7 @@ body:before {
 #main-content {
 	background-color: #F0F0F0;
 	padding: 20px;
+	min-height: 275px;
 }
 
 /*PROJECTS*/
