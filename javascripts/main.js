@@ -3,9 +3,14 @@ var codeView = new CodeView(console.log('Code'));
 var careerView = new CareerView(console.log('Career'));
 var contactView = new ContactView(console.log('Contact'));
 var createView = new CreateView(console.log('Create'));
+var portfolioView = new PortfolioView(console.log('Portfolio'));
+
 
 $( document ).ready(function() {
 
+	$('#portfolio-button').on('click', function() {
+		console.log('blah');
+	});
 
 	$('#create')
 	.css('cursor', 'pointer')
@@ -15,7 +20,7 @@ $( document ).ready(function() {
 			createView.renderContent();
 			createView.renderTitle();
 		}
-		)
+	)
 	.hover(
 		function(){
 			$(this).css('background', '#ff00ff');
@@ -23,7 +28,7 @@ $( document ).ready(function() {
 		function(){
 			$(this).css('background', '');
 		}
-		);
+	);
 
 	$('#contact')
 	.css('cursor', 'pointer')

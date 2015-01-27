@@ -102,7 +102,6 @@ body:before {
 	color: white;
 }
 
-
 /*Backbone Views*/
 
 #section-title {
@@ -111,6 +110,7 @@ body:before {
 	font-size: 20px;	
 	margin-top: 50px;
 	padding: 10px 0;
+	display: inline-block;
 }
 
 #main-content {
