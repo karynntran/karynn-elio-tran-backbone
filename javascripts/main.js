@@ -20,14 +20,13 @@ $( document ).ready(function() {
 	.click(
 		function(){
 			console.log('create button clicked');
-			createView.renderContent();	
-			createView.renderGallery();		
+			createView.renderContent();			
 			createView.renderTitle();	
 
 			$('.slider1').bxSlider({
-			    slideWidth: 200,
+			    slideWidth: 400,
 			    minSlides: 1,
-			    maxSlides: 1,
+			    maxSlides: 2,
 			    slideMargin: 10
 			});		
 		}
