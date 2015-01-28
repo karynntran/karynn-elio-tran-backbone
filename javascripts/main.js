@@ -15,6 +15,15 @@ var comics = new Project({ name: "COMIC SMASH UP", url: "http://107.170.136.228:
 
 $( document ).ready(function() {
 
+	Image1= new Image(175,50)
+	Image1.src = "images/profile.jpg"
+
+	Image2 = new Image(25,30)
+	Image2.src = "images/profile2.jpg"
+
+	Image3 = new Image(125,80)
+	Image3.src = "images/profile3.jpg"
+
 	$('#create')
 	.css('cursor', 'pointer')
 	.click(

@@ -41,6 +41,7 @@ body:before {
 	position: relative;
 	margin-bottom: -50px;
 	bottom: 40px;
+	margin-left: 5px;
 }
 
 .header-title {
