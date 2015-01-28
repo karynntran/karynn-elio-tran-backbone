@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="javascripts/jquery.bxslider/jquery.bxslider.css">
+
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -54,6 +56,8 @@
 		</div>
 	</div>
 
+
+
 <!-- scripts	 -->
 
 		<script type="text/template" id="contact-template">
@@ -100,12 +104,25 @@
 				<a href="https://www.flickr.com/photos/124520799@N02/sets/72157645686683272/" target="_blank">Photo Gallery</a>	
 			</div>
 
-			<div class="row eight columns">
-				
-				MORE COMING SOON!
 
-			</div>	
+			<div class="row eight columns" id="gallery-section">
+			</div>				
+				
 		</div>	
+		</script>	
+
+		<script type="text/template" id="gallery-template">	
+			<div class="slider1">
+			  <div class="slide"><img src="images/profile.jpg"></div>
+			  <div class="slide"><img src="images/profile.jpg"></div>
+			  <div class="slide"><img src="images/profile.jpg"></div>
+			  <div class="slide"><img src="images/profile.jpg"></div>
+			  <div class="slide"><img src="images/profile.jpg"></div>
+			  <div class="slide"><img src="images/profile.jpg"></div>
+			  <div class="slide"><img src="images/profile.jpg"></div>
+			  <div class="slide"><img src="images/profile.jpg"></div>
+			  <div class="slide"><img src="images/profile.jpg"></div>
+			</div>		
 		</script>	
 
 		<script type="text/template" id="career-template">
@@ -205,7 +222,7 @@
 				________________________________
 
 				<p class="header-title" id="education">
-				I recently graduated from the Web Development Immersive Program at General Assembly. Lemurs for Life!
+				I recently graduated from the Web Development Immersive Program at General Assembly, as a proud Lemur of the September 2014 cohort. Learn more about this amazing program <a href="https://generalassemb.ly/education/web-development-immersive">here.</a>
 				</p></center>
 			</div>	
 
@@ -231,11 +248,14 @@
 		</div>
 		</div>
 		</script>
-
+		
 		<script src="javascripts/jquery.js"></script>
 		<script src="javascripts/underscore.js"></script>
 		<script src="javascripts/backbone.js"></script>
-		<script src="javascripts/jquery-ui.js"></script>		
+		<script src="javascripts/jquery-ui.js"></script>
+
+<!-- BXSLIDER -->	
+		<script src="javascripts/jquery.bxslider/jquery.bxslider.js"></script>								
 
 <!-- MODELS -->
 		<script src="backbone/models/project-model.js"></script>

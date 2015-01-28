@@ -74,6 +74,7 @@ body:before {
 }
 #education {
 	margin-top: 20px;
+	font-size: 12px;
 }
 
 #career {
@@ -109,13 +110,13 @@ body:before {
 	line-height: 10px;
 	text-align: center;
 	list-style: none;
-	background-color: white;
+	background-color: #F8F8F8;
 	padding: 5px;
 }
 
 /*Buttons*/
 #portfolio-button, #skills-button {
-	background-color: #330033;
+	background-color: #282828;
 	color: white;
 }
 
@@ -123,6 +124,7 @@ body:before {
 
 .icon {
 	width: 50%;
+	margin-top: 50px;
 }
 
 /*Backbone Views*/
