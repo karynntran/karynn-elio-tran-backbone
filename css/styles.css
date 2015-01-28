@@ -35,6 +35,14 @@ body:before {
 	font-size: 45px;
 }
 
+#about-me-img {
+	height: 80px;
+	float: right;
+	position: relative;
+	margin-bottom: -50px;
+	bottom: 40px;
+}
+
 .header-title {
 	font-family: 'Droid Serif', serif;
 	color: #330033;
@@ -51,6 +59,7 @@ body:before {
 #header{
 	margin-top: 20px;
 	display: inline-block;
+	vertical-align: middle;
 }
 
 #navigation {
