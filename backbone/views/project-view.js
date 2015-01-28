@@ -9,7 +9,7 @@ var ProjectView = Backbone.View.extend({
 
 	renderContent: function() {
 		console.log("projectview");
-		this.$el.html(this.templateContent());
+		this.$el.html(this.templateContent()).hide().fadeIn().slideDown();
 		return this;
 	},
 });

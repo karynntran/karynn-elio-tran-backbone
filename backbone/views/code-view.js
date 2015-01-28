@@ -8,11 +8,11 @@ var CodeView = Backbone.View.extend({
 	},
 
 	renderContent: function() {
-		this.$el.html(this.templateContent());
+		this.$el.html(this.templateContent()).hide().fadeIn().slideDown();
 		return this;
 	},
 	renderTitle: function(){
-		this.titleEl.text("{ Check out my code. }");
+		this.titleEl.text("{ Check out my code. }").hide().fadeIn().slideDown();
 		return this;
 	}
 });

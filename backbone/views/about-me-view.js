@@ -7,11 +7,11 @@ var AboutMeView = Backbone.View.extend({
 		this.renderTitle();
 	},
 	renderContent: function() {
-		this.$el.html(this.templateContent());
+		this.$el.html(this.templateContent()).hide().fadeIn().slideDown();
 		return this;
 	},
 	renderTitle: function(){
-		this.titleEl.text("{ Hello there! My name is Karynn. }");
+		this.titleEl.text("{ Hello there! My name is Karynn. }").hide().fadeIn().slideDown();
 		return this;
 	}
 });

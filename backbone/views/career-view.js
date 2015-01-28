@@ -3,11 +3,11 @@ var CareerView = Backbone.View.extend({
 	titleEl: $('#section-title'),
 	templateContent: _.template($('#career-template').html()),
 	renderContent: function() {
-		this.$el.html(this.templateContent());
+		this.$el.html(this.templateContent()).hide().fadeIn().slideDown();
 		return this;
 	},
 	renderTitle: function(){
-		this.titleEl.text("{ Some other cool stuff. }");
+		this.titleEl.text("{ Some other cool stuff. }").hide().fadeIn().slideDown();
 		return this;
 	}
 });
