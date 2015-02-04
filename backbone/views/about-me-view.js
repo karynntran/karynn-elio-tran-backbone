@@ -12,10 +12,7 @@ var AboutMeView = Backbone.View.extend({
 		return this;
 	},
 	renderTitle: function(){
-		this.titleEl.text("{ Hello there! My name is Karynn. }")
-			.append("<img id='about-me-img' src='images/profile.jpg'>")
-			.append("<img id='about-me-img' src='images/profile2.jpg'>")
-			.append("<img id='about-me-img' src='images/profile3.jpg'>").hide().fadeIn();			
+		this.titleEl.text("{ Hello there! My name is Karynn. }").hide().fadeIn();			
 		return this;
 	}
 });
