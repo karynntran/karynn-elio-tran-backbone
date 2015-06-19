@@ -1,0 +1,16 @@
+body {
+	color: white;
+	font-family: Helvetica;
+	padding: 100px;
+}
+
+.container {
+	background-color: lightgray;
+}
+
+label {
+	font-size:70px;
+	line-height: 51px;
+	color: darkgray;
+	padding: 0px 20px;
+}
